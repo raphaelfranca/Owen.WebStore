@@ -1,7 +1,7 @@
 ﻿using Owen.WebStore.Domain.Entities;
 using Owen.WebStore.Infraestructure.Persistence.DataContext;
-using Owen.WeStore.Domain.Repositories;
-using Owen.WeStore.Domain.Specs;
+using Owen.WebStore.Domain.Repositories;
+using Owen.WebStore.Domain.Specs;
 using System.Collections.Generic;
 using System.Linq;
 

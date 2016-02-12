@@ -1,8 +1,8 @@
 ﻿using Owen.WebStore.Domain.Entities;
 using Owen.WebStore.Infraestructure.Persistence;
-using Owen.WeStore.Domain.Commands.ProductCommands;
-using Owen.WeStore.Domain.Repositories;
-using Owen.WeStore.Domain.Services;
+using Owen.WebStore.Domain.Commands.ProductCommands;
+using Owen.WebStore.Domain.Repositories;
+using Owen.WebStore.Domain.Services;
 using System.Collections.Generic;
 
 namespace Owen.WebStore.ApplicationService

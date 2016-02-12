@@ -1,5 +1,5 @@
 ﻿
-namespace Owen.WeStore.Domain.Commands.ProductCommands
+namespace Owen.WebStore.Domain.Commands.ProductCommands
 {
     public class UpdateProductInfoCommand
     {

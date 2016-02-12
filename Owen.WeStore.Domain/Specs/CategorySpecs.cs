@@ -1,5 +1,5 @@
 ﻿
-namespace Owen.WeStore.Domain.Specs
+namespace Owen.WebStore.Domain.Specs
 {
     public static class CategorySpecs
     {

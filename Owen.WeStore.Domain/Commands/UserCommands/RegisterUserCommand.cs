@@ -1,5 +1,5 @@
 ﻿
-namespace Owen.WeStore.Domain.Commands.UserCommands
+namespace Owen.WebStore.Domain.Commands.UserCommands
 {
     public class RegisterUserCommand
     {

@@ -5,8 +5,8 @@ using Owen.WebStore.Infraestructure.Persistence.DataContext;
 using Owen.WebStore.Infraestructure.Repositories;
 using Owen.WebStore.SharedKernel;
 using Owen.WebStore.SharedKernel.Events;
-using Owen.WeStore.Domain.Repositories;
-using Owen.WeStore.Domain.Services;
+using Owen.WebStore.Domain.Repositories;
+using Owen.WebStore.Domain.Services;
 
 namespace Owen.WebStore.CrossCutting
 {

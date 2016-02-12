@@ -1,5 +1,5 @@
 ﻿
-namespace Owen.WeStore.Domain.Commands.OrderCommands
+namespace Owen.WebStore.Domain.Commands.OrderCommands
 {
     public class CreateOrderItemCommand
     {

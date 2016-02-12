@@ -1,8 +1,8 @@
 ﻿using Owen.WebStore.Domain.Entities;
-using Owen.WeStore.Domain.Commands.UserCommands;
+using Owen.WebStore.Domain.Commands.UserCommands;
 using System.Collections.Generic;
 
-namespace Owen.WeStore.Domain.Services
+namespace Owen.WebStore.Domain.Services
 {
     public interface IUserApplicationService
     {

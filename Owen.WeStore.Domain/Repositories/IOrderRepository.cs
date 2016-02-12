@@ -1,7 +1,7 @@
 ﻿using Owen.WebStore.Domain.Entities;
 using System.Collections.Generic;
 
-namespace Owen.WeStore.Domain.Repositories
+namespace Owen.WebStore.Domain.Repositories
 {
     public interface IOrderRepository
     {

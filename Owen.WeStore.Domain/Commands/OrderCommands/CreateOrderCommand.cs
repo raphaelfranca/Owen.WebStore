@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Owen.WeStore.Domain.Commands.OrderCommands
+namespace Owen.WebStore.Domain.Commands.OrderCommands
 {
     public class CreateOrderCommand
     {

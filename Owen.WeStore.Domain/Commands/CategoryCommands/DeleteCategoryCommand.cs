@@ -1,5 +1,5 @@
 ﻿
-namespace Owen.WeStore.Domain.Commands.CategoryCommands
+namespace Owen.WebStore.Domain.Commands.CategoryCommands
 {
     public class DeleteCategoryCommand
     {

@@ -2,7 +2,7 @@
 using System;
 using System.Linq.Expressions;
 
-namespace Owen.WeStore.Domain.Specs
+namespace Owen.WebStore.Domain.Specs
 {
     public static class ProductSpecs
     {

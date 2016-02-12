@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owen.WebStore.ApplicationSe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owen.WebStore.CrossCutting", "Owen.WebStore.CrossCutting\Owen.WebStore.CrossCutting.csproj", "{0A89E2BC-0341-4346-B20E-72BAA3EEA46E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{4C237492-CCE0-4BE9-B777-DB65B7F2EEF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owen.WebStore.Api", "Owen.WebStore.Api\Owen.WebStore.Api.csproj", "{11F81DAF-421E-4206-B6A4-FD377643A6A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +57,10 @@ Global
 		{0A89E2BC-0341-4346-B20E-72BAA3EEA46E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A89E2BC-0341-4346-B20E-72BAA3EEA46E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A89E2BC-0341-4346-B20E-72BAA3EEA46E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11F81DAF-421E-4206-B6A4-FD377643A6A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11F81DAF-421E-4206-B6A4-FD377643A6A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11F81DAF-421E-4206-B6A4-FD377643A6A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11F81DAF-421E-4206-B6A4-FD377643A6A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,5 +72,6 @@ Global
 		{2CAF4186-6E19-41F0-ABE0-3E24D11B1554} = {999531B7-6D2D-4461-B712-2DF62D90D39B}
 		{544A1DCC-1E99-49E0-AC06-04A2D55525CA} = {7DE4F0FE-BC78-40C9-BA28-15EF1C19FB61}
 		{0A89E2BC-0341-4346-B20E-72BAA3EEA46E} = {999531B7-6D2D-4461-B712-2DF62D90D39B}
+		{11F81DAF-421E-4206-B6A4-FD377643A6A0} = {4C237492-CCE0-4BE9-B777-DB65B7F2EEF0}
 	EndGlobalSection
 EndGlobal
