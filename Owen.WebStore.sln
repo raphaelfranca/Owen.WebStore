@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infraestructure", "4 - 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owen.WebStore.Infraestructure", "Owen.WebStore.Infraestructure\Owen.WebStore.Infraestructure.csproj", "{2CAF4186-6E19-41F0-ABE0-3E24D11B1554}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - ApplicationService", "2 - ApplicationService", "{7DE4F0FE-BC78-40C9-BA28-15EF1C19FB61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owen.WebStore.ApplicationService", "Owen.WebStore.ApplicationService\Owen.WebStore.ApplicationService.csproj", "{544A1DCC-1E99-49E0-AC06-04A2D55525CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,10 @@ Global
 		{2CAF4186-6E19-41F0-ABE0-3E24D11B1554}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CAF4186-6E19-41F0-ABE0-3E24D11B1554}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CAF4186-6E19-41F0-ABE0-3E24D11B1554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{544A1DCC-1E99-49E0-AC06-04A2D55525CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{544A1DCC-1E99-49E0-AC06-04A2D55525CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{544A1DCC-1E99-49E0-AC06-04A2D55525CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{544A1DCC-1E99-49E0-AC06-04A2D55525CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,5 +56,6 @@ Global
 		{8CECCD91-0608-40B8-8BB7-D3583E8F278A} = {DCF6DB03-712F-4E86-8ADE-85DFF70D1A44}
 		{22B1F0D7-9D91-4928-AF9D-6F7D82625EDE} = {09FB17B8-E753-40E7-9335-414BCC68ADC0}
 		{2CAF4186-6E19-41F0-ABE0-3E24D11B1554} = {999531B7-6D2D-4461-B712-2DF62D90D39B}
+		{544A1DCC-1E99-49E0-AC06-04A2D55525CA} = {7DE4F0FE-BC78-40C9-BA28-15EF1C19FB61}
 	EndGlobalSection
 EndGlobal
