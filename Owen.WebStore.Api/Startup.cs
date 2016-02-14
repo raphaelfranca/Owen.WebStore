@@ -4,6 +4,7 @@ using Microsoft.Practices.Unity;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using Owen.WebStore.Api.Helpers;
+using Owen.WebStore.Api.Security;
 using Owen.WebStore.CrossCutting;
 using Owen.WebStore.Domain.Services;
 using Owen.WebStore.SharedKernel.Events;
@@ -60,17 +61,17 @@ namespace Owen.WebStore.Api
 
         public void ConfigureOAuth(IAppBuilder app, IUserApplicationService userService)
         {
-            //OAuthAuthorizationServerOptions OAuthServerOptions = new OAuthAuthorizationServerOptions()
-            //{
-            //    AllowInsecureHttp = true,
-            //    TokenEndpointPath = new PathString("/api/security/token"),
-            //    AccessTokenExpireTimeSpan = TimeSpan.FromDays(2),
-            //    Provider = new SimpleAuthorizationServerProvider(userService)
-            //};
+            OAuthAuthorizationServerOptions OAuthServerOptions = new OAuthAuthorizationServerOptions()
+            {
+                AllowInsecureHttp = true,
+                TokenEndpointPath = new PathString("/api/security/token"),
+                AccessTokenExpireTimeSpan = TimeSpan.FromDays(2),
+                Provider = new SimpleAuthorizationServerProvider(userService)
+            };
 
-            //// Token Generation
-            //app.UseOAuthAuthorizationServer(OAuthServerOptions);
-            //app.UseOAuthBearerAuthentication(new OAuthBearerAuthenticationOptions());
+            // Token Generation
+            app.UseOAuthAuthorizationServer(OAuthServerOptions);
+            app.UseOAuthBearerAuthentication(new OAuthBearerAuthenticationOptions());
 
         }
     }
